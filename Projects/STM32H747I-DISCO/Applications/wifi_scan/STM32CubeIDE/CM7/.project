@@ -222,19 +222,24 @@
 			<locationURI>$%7BPARENT-2-PROJECT_LOC%7D/CM7/Core/Src/main.c</locationURI>
 		</link>
 		<link>
-			<name>Application/User/Core/wifi_task.c</name>
-			<type>1</type>
-			<locationURI>$%7BPARENT-2-PROJECT_LOC%7D/CM7/Core/Src/wifi_task.c</locationURI>
-		</link>
-		<link>
 			<name>Application/User/Core/stm32h7xx_hal_msp.c</name>
 			<type>1</type>
 			<locationURI>$%7BPARENT-2-PROJECT_LOC%7D/CM7/Core/Src/stm32h7xx_hal_msp.c</locationURI>
 		</link>
 		<link>
+			<name>Application/User/Core/stm32h7xx_hal_timebase_tim.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/CM7/Core/Src/stm32h7xx_hal_timebase_tim.c</locationURI>
+		</link>
+		<link>
 			<name>Application/User/Core/stm32h7xx_it.c</name>
 			<type>1</type>
 			<locationURI>$%7BPARENT-2-PROJECT_LOC%7D/CM7/Core/Src/stm32h7xx_it.c</locationURI>
+		</link>
+		<link>
+			<name>Application/User/Core/wifi_task.c</name>
+			<type>1</type>
+			<locationURI>$%7BPARENT-2-PROJECT_LOC%7D/CM7/Core/Src/wifi_task.c</locationURI>
 		</link>
 		<link>
 			<name>Middlewares/Connectivity/Wireless/Platform/abstraction-rtos/cy_worker_thread.c</name>
@@ -1600,6 +1605,31 @@
 			<name>Middlewares/Connectivity/Wireless/Wifi/wifi-mw-core/sys_arch.h</name>
 			<type>1</type>
 			<locationURI>$%7BPARENT-2-PROJECT_LOC%7D/Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-mw-core/lwip-whd-port/COMPONENT_FREERTOS/arch/sys_arch.h</locationURI>
+		</link>
+		<link>
+			<name>Middlewares/Connectivity/Wireless/Platform/device/CYW43012/43012C0-mfgtest_bin.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/resources/firmware/COMPONENT_43012/43012C0-mfgtest_bin.c</locationURI>
+		</link>
+		<link>
+			<name>Middlewares/Connectivity/Wireless/Platform/device/CYW43012/43012C0-mfgtest_clm_blob.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/resources/firmware/COMPONENT_43012/43012C0-mfgtest_clm_blob.c</locationURI>
+		</link>
+		<link>
+			<name>Middlewares/Connectivity/Wireless/Platform/device/CYW43012/43012C0_bin.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/resources/firmware/COMPONENT_43012/43012C0_bin.c</locationURI>
+		</link>
+		<link>
+			<name>Middlewares/Connectivity/Wireless/Platform/device/CYW43012/43012C0_clm_blob.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/resources/firmware/COMPONENT_43012/43012C0_clm_blob.c</locationURI>
+		</link>
+		<link>
+			<name>Middlewares/Connectivity/Wireless/Platform/device/CYW43012/w_bt_firmware_controller.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Middlewares/Third_Party/Infineon_Wireless_Connectivity/bluetooth-freertos/firmware/COMPONENT_43012/TARGET_CY8CKIT_062S2_43012/w_bt_firmware_controller.c</locationURI>
 		</link>
 		<link>
 			<name>Middlewares/Connectivity/Wireless/Wifi/wcm/LWIP/cy_wcm.c</name>
